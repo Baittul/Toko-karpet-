@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lokalhost</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #A47575; 
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+        }
+        header {
+            
+            background: #333;
+            text-align: inline;
+            padding: 8px;
+            font-size: 20px;
+        }
+
+        .ul-navbar {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            background:#333;
+        }
+        .section {
+          margin: 10px;
+        }
+        .li-navbar {
+            margin-right: 20px;
+        }
+        .container {
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            padding: 25px;
+            margin-top: 0;
+            top: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .produk {
+          flex-direction: column;
+           background-image:url('lksi.png');
+           background-size: cover;
+            width: 45%;
+            max-width: 400px;
+            height; 40%:
+            padding: 30px;
+            margin-bottom: 15px;
+            text-align: center;
+            border-radius: 10px;
+            border-image: 10px;
+            border: 1px solid #333;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+        }
+   .produk img {
+     border-radius: 5px;
+   }
+   .produk p {
+     color: gold;
+     font-size: 15px;
+   }
+        .button {
+            display: inline-block;
+            margin: 20px 0;
+            
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            border-radius: 5px;
+            width: 10px;
+            height: 15px;
+        }
+        .button4 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer1 {
+            text-align: center;
+            padding: 20px;
+        }
+        .card {
+            
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0,1)
+            
+           }
+           .profil {
+             border-radius: 50%;
+           
+           }
+           .card img {
+             width:20px;
+             height: 20px;
+           }
+           h3 {
+             color: #fff;
+             font-size: 15px;
+           }
+           p {
+             color:#fff;
+             font-size: 12px;
+           }
+    .colorful-container {
+    text-align: center;
+    padding: 10px;
+    background-image:url('kipli.png');
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin: 50px auto;
+    color: #fff;
+    height: 40%;
+    width: 60%;
+    background-size: cover;
+ }
+cta-button {
+    display: inline-block;
+    padding: 0.8em 2em;
+    margin-top: 1em;
+    text-decoration: none;
+    background-color: #090;
+    color: #fff;
+    border-radius: 5px;
+}
+ h2 {
+   color: #dff;
+   font-size: 15px;
+ }
+ .card a{
+   color: #fff;
+   text-decoration: none;
+ }
+     .letter {
+      opacity: 100px;
+     border: 1px solid 6px;
+      width: 80%;
+      max-width: 600px;
+      margin: 50px auto;
+      background: #158;
+    
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .letter p {
+      font-size: 15px;
+    }
+    .judul h2 {
+      margin: 5px;
+      top: 0;
+     lift: 10px;
+     padding: 10px;
+    }
+    .gallery-container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      margin-top: 10px;
+    }
+
+    .product img{
+      width: 100%;
+      min-width: 300px;
+      box-sizing: border-box;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      height: 70%;
+      margin-top:10px;
+    }
+
+    #mission {
+    margin-top: 30px;
+    border-right: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 15px;
+    left: 5px;
+}
+ #mission p {
+  font-size: 15px;
+}
+.mission-2 {
+ border-image: 10px;
+}
+    .colorful-text h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    animation: colorChange 2s infinite;
+    border: 1px solid black;
+    background-color: #black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+    33.33% {
+        color: gold;
+    }
+    66.66% {
+        color: blue;
+    }
+    100% {
+        color: #fff;
+    }
+}
+    .p-3 {
+      margin: 0;
+      padding: 15px;
+      background-color: #726154;
+      border: 5px solid black;
+      border-radius: 10px;
+    }
+   
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.whatsapp-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+          *video-container {
+            position: relative;
+            text-align: center;
+            margin: 30px;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+        }
+
+        #full-screen-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+         .names {
+            position: relative;
+            height: 50px;
+            overflow: hidden;
+            margin-bottom: 5px;
+            
+            
+        }
+
+        .name {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            text-align: center;
+            font-size: 10px;
+            animation: slide 6s infinite;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .name:nth-child(2) {
+            animation-delay: 2s;
+        }
+
+        .name:nth-child(3) {
+            animation-delay: 3s;
+        }
+
+        @keyframes slide {
+            0% {
+                top: 100%;
+            }
+            10% {
+                top: 0;
+            }
+            20% {
+                top: 0;
+            }
+            30% {
+                top: -50%;
+            }
+            100% {
+                top: -100%;
+            }
+        }
+        .item-name {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+           
+          
+        <nav>
+         <div class="colorful-text">
+      <h3>BAITTUL MUSLIM</h3>
+    </div>
+        </nav>
+    </header>
+    
+    <section>
+      
+
+</div>
+        
+
+     <div class="judul">
+        <h2>Produk Kami</h2>
+        </div>
+        <div class="container">
+       
+       <div class="produk">
+                     
+               <a href="https://zipmsi.000webhostapp.com/Config4%20(1).html">
+                <img src="karpetpersia1.jpg" 
+              style=" width: 100%;"alt="Produk 1">
+                         
+              </a>
+                <p style="background-color:#191970;border-radius:5px;">Rp:250,000/m</p>
+            <div class="names">
+           <div class="name">Persia</div>
+            <div class="name">populer</div>
+              </div> 
+       
+            </div>
+           
+          <div class="produk">
+              <a href="https://zipmsi.000webhostapp.com/Config4%20(2).html">
+                <img src="karpetpersia2.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                  <p style="background-color:#191970;border-radius:5px;">Rp:250,000/m</p>
+                              <div class="names">
+           <div class="name">Persia</div>
+            <div class="name">Lokal</div>
+              </div> 
+                <p></p>
+                <a class="button"></a>
+            </div>
+                <div class="produk">
+                  <a href="https://zipmsi.000webhostapp.com/Config4%20(3).html">
+                <img src="karpetpersia3.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                
+                <p style="background-color:#191970;border-radius:5px;">Rp:200,000/m</p>
+                            <div class="names">
+           <div class="name">Persia</div>
+            <div class="name">populer</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+            
+            <div class="produk">
+              <a href="https://zipmsi.000webhostapp.com/Config4%20(4).html">
+                <img src="dubailokal1.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                   <p style="background-color:#191970;border-radius:5px;">Rp:200,000/m</p>
+                            <div class="names">
+           <div class="name">dubai</div>
+            <div class="name">populer</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+              <div class="produk">
+                <a href="https://zipmsi.000webhostapp.com/Config4%20(5).html">
+                <img src="dubailokal.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                
+                    <p style="background-color:#191970;border-radius:5px;">Rp:180,000/m</p>
+                                <div class="names">
+           <div class="name">dubai</div>
+           <div class="name">lokal</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+                 <div class="produk">
+                   <a href="https://zipmsi.000webhostapp.com/Config4%20(6).html">
+                <img src="karpetpersia5.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                
+                     <p style="background-color:#191970;border-radius:5px;">Rp:200,000/m</p>
+                                 <div class="names">
+           <div class="name">Persia</div>
+            <div class="name">populer</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+                 <div class="produk">
+                   <a href="https://zipmsi.000webhostapp.com/Config4%20(7).html">
+                <img src="karpetpersia6.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                
+                     <p style="background-color:#191970;border-radius:5px;">Rp:200,000/m</p>
+                                 <div class="names">
+           <div class="name">Persia</div>
+           <div class="name">populer</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+                 <div class="produk">
+                   <a href="https://zipmsi.000webhostapp.com/Config4%20(8).html">
+                <img src="karpetpersia7.jpg" style="width: 100%;" alt="Produk 1">
+                </a>
+                
+                     <p style="background-color:#191970;border-radius:5px;">Rp:200,000/m</p>
+                                 <div class="names">
+           <div class="name">Persia</div>
+            <div class="name">populer</div>
+              </div> 
+                <a class="button"></a>
+            </div>
+          <section id="mission">
+        <h2>Misi Kami</h2>
+
+    
+    </section>
+    <div class="mission-2">
+      <img src="pemasangan.jpg" width="100%" height="100%" border-radius: 10px;> 
+      
+    </div>
+        
+     <div class="colorful-container">
+        <h1>karpet baittul muslim</h1>
+        <p>kami siap antar seluruh indonesia.</p>
+       
+    </div>
+          <div class="letter">
+       <p>karpetmuslim</p>
+     </div>
+
+
+    <div id="video-container">
+    <video id="video" controls poster="jajal.jpg">
+        <source src="karim.mp4" type="video/mp4">
+        <source src="plecigacor.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="full-screen-button">videi</div>
+</div>
+       <script>
+    
+    const video = document.getElementById('video');
+    const fullScreenButton = document.getElementById('full-screen-button');
+
+    fullScreenButton.addEventListener('click', function() {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+            video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+            video.webkitRequestFullscreen();
+        }
+    });
+</script>
+     <script>
+  function toggleMenu() {
+    const navbarList = document.getElementById('navbar-list');
+    navbarList.classList.toggle('show');
+  }
+
+  const gallery = document.querySelector('.gallery');
+  let currentIndex = 0;
+
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % gallery.children.length;
+    const translateValue = -currentIndex * 120 + '%';
+    gallery.style.transform = 'translateX(' + translateValue + ')';
+  },6000);
+</script>
+
+    </section>
+      <div class="whatsapp-button">
+      <a href="https://wa.me/089512595271" target="_blank">
+            <img src="WA.jpg" alt="WhatsApp">
+            
+        </a>
+    </div>
+ 
+  <footer class="footer1">
+    
+       <div class="card">
+            <h3>ikuti kami</h3>
+    <div>
+        <a href="https://www.facebook.com/zipmsi.58152559?mibextid=ZbWKwL"><img src="sosial.png" alt="Facebook">facebook</a>
+        <a href="https://whatsapp.com/channel/0029VaWmjue8V0tp1gVgRy12"><img src="awa.png" alt="busines">busines</a>
+        <a href="https://www.instagram.com"><img src="instagram.jpg" alt="Instagram">instagram</a>
+    </div>
+    <p style="color: #fff;">Di buat :BAITUL MUSLIM</p>
+        <p>Hak Cipta © 2024. :AL MUSLIM</p>
+        
+</footer>
+</body>
+
+</html>
