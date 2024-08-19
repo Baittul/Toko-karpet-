@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia1.jpg" alt="Product Image 1" class="product-image">
+            <div class="info">
+                <h3>Blue</h3>
+                <h1>COD</h1>
+                <p>Pesan Hari</p>
+                <p>Perbarui Otomatis</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia2.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Blue</h3>
+                <h1>COD</h1>
+                <p>Pesan </p>
+                <p>Hari ini juga</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+                        <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia3.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Happy</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Pesan sekarang</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+              <div class="card">
+            <div class="label">NEW</div>
+            <img src="dubailokal1.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Happy</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Pesan sekarang</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+                <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia4.jpg" alt="Product Image 1" class="product-image">
+            <div class="info">
+                <h3>Bluemos</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Hari ini juga</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+        </div>
+     </div>
+           <!-- sebelh kiwe -->
+         <div class="container">
+        <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia5.jpg" alt="Product Image 1" class="product-image">
+            <div class="info">
+                <h3>Bluemos</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Hari ini juga</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">NEW</div>
+            <img src="dubailokal.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Happy</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Pesan sekarang</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+                <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia6.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Happy</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Pesan sekarang</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+                        <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia7.jpg" alt="Product Image 2" class="product-image">
+            <div class="info">
+                <h3>Happy</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Pesan sekarang</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+            
+        </div>
+                <div class="card">
+            <div class="label">NEW</div>
+            <img src="karpetpersia8.jpg" alt="Product Image 1" class="product-image">
+            <div class="info">
+                <h3>Bluemos</h3>
+                <h1>COD</h1>
+                <p>pesan</p>
+                <p>Hari ini juga</p>
+            </div>
+            <div class="bonus">+ Voice Call to ALMUSLIM</div>
+            <div class="price">Rp400.000</div>
+        </div>
+        
+     </div>
+     
+     
+</body>
+</html>
